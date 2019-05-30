@@ -1,33 +1,54 @@
-.App {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-padding: 3rem 0 0 0;
+}
+
+h1, h2 {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.resp-img {
+  max-width: 80vw;
+  height: auto;
+}
+
+.work-card {
+  max-width: 19rem;
+}
+
+.work-card > .card-image-top {
+  border-bottom: 1px solid #00000033;
+}
+
+.work-card .badge:not(:last-child) {
+  margin-right: 0.25rem
+}
+
+.about-list {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-btn {
   display: flex;
-  flex-direction: column;
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 0.125rem black solid;
+  border-radius: 50%;
+  color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+.about-btn:focus, .about-btn:hover {
+  background-color: #000;
+  color: #fff;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form {
+  max-width: 25rem;
 }

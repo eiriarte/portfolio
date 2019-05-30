@@ -1,0 +1,195 @@
+[
+  {
+    "id": "entrellaves",
+    "screenshot": "entrellaves.png",
+    "title": "Entre Llaves",
+    "position": "Own project",
+    "description": "Personal blog on web development. Custom WordPress plugin.",
+    "skills": [
+      "PHP",
+      "WordPress",
+      "Apache",
+      "nginx"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://entrellaves.com"
+      }
+    ]
+  },
+  {
+    "id": "bolsa",
+    "screenshot": "bolsa.png",
+    "title": "Health Employment Agency",
+    "position": "Developer at Sadiel",
+    "description": "Portal for registrations in the employment agency for the Andalusian Health Service.",
+    "skills": [
+      "PHP",
+      "PL/SQL",
+      "Oracle",
+      "JavaScript",
+      "CSS"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://ws035.juntadeandalucia.es/bolsa/http/index.php?vIdBolsa=40381034384058"
+      },
+      {
+        "anchor": "Screencast",
+        "url": "https://www.youtube.com/watch?v=aSfU_KSi3D4"
+      }
+    ]
+  },
+  {
+    "id": "ase",
+    "screenshot": "ASE.png",
+    "title": "Official website for ASE",
+    "position": "Design and development",
+    "description": "Bilingual website for the Sevillian Esperanto Association. Custom WordPress theme.",
+    "skills": [
+      "PHP",
+      "WordPress",
+      "JavaScript",
+      "Sass"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://esperantosevilla.org/"
+      }
+    ]
+  },
+  {
+    "id": "fch",
+    "screenshot": "fch.png",
+    "title": "No Solo Chistes",
+    "position": "Own project",
+    "description": "Entertainment website with Node.js + MongoDB server (formerly PHP, MySQL and Backbone.js).",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Sass",
+      "Nunjucks",
+      "PHP",
+      "MySQL",
+      "Backbone.js"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://nosolochistes.com/"
+      },
+      {
+        "anchor": "2009 version",
+        "url": "https://web.archive.org/web/20091207071245/http://feti-chistes.es/"
+      }
+    ]
+  },
+  {
+    "id": "sng",
+    "screenshot": "SNG.png",
+    "title": "Spanish Numbers Guide",
+    "position": "Own project",
+    "description": "Spanish/english educational website for Spanish learners. Hosted in Amazon S3 and CloudFront.",
+    "skills": [
+      "JavaScript",
+      "Winstersmith",
+      "AWS"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://spanishnumbers.guide"
+      }
+    ]
+  },
+  {
+    "id": "vivaverbo",
+    "screenshot": "vivaverbo.png",
+    "title": "Vivaverbo",
+    "description": "Multi-user tool for language learning using spaced repetition algorithms.",
+    "position": "Own project",
+    "skills": [
+      "JavaScript",
+      "AngularJS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/vivaverbo"
+      },
+      {
+        "anchor": "Screencast",
+        "url": "https://www.youtube.com/watch?v=1BSoZN3Uly8"
+      }
+    ]
+  },
+  {
+    "id": "numeros",
+    "screenshot": "numeros.jpg",
+    "title": "Números",
+    "position": "Own project",
+    "description": "Educational Android/iOS app for Spanish learners.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "React Native"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/numeros"
+      }
+    ]
+  },
+  {
+    "id": "andex",
+    "screenshot": "andex.png",
+    "title": "ANDEX volunteer program",
+    "position": "Design and development",
+    "description": "Web app to manage volunteer work for the Association ANDEX.",
+    "skills": [
+      "JavaScript",
+      "CoffeScript",
+      "AngularJS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Sass"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/voluntariado"
+      },
+     {
+       "anchor": "Screencast",
+       "url": "https://www.youtube.com/watch?v=oJzJS9lr6U4"
+     }
+    ]
+  },
+  {
+    "id": "timed",
+    "screenshot": "timed.png",
+    "title": "Timed TODO App",
+    "position": "Own project",
+    "description": "Multi-platform productivity app (timed TODO lists).",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Electron",
+      "Sass"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/timed-todo"
+      }
+    ]
+  }
+]

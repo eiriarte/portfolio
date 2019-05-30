@@ -1,0 +1,12 @@
+{
+  "es": {
+    "tech": "Creado con React y Bootstrap",
+    "github": "Código fuente en Github",
+    "copyright": "© Eduardo I. Iriarte Gahete"
+  },
+  "en": {
+    "tech": "Made with React and Bootstrap",
+    "github": "Source code in Github",
+    "copyright": "© Eduardo I. Iriarte Gahete"
+  }
+}

@@ -1,0 +1,195 @@
+[
+  {
+    "id": "entrellaves",
+    "screenshot": "entrellaves.png",
+    "title": "Entre Llaves",
+    "position": "Proyecto propio",
+    "description": "Blog personal sobre desarrollo web. Plugin de WordPress a medida.",
+    "skills": [
+      "PHP",
+      "WordPress",
+      "Apache",
+      "nginx"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://entrellaves.com"
+      }
+    ]
+  },
+  {
+    "id": "bolsa",
+    "screenshot": "bolsa.png",
+    "title": "Bolsa de empleo SAS",
+    "position": "Programador en Sadiel",
+    "description": "Portal de inscripción en la bolsa de empleo temporal del Servicio Andaluz de Salud.",
+    "skills": [
+      "PHP",
+      "PL/SQL",
+      "Oracle",
+      "JavaScript",
+      "CSS"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://ws035.juntadeandalucia.es/bolsa/http/index.php?vIdBolsa=40381034384058"
+      },
+      {
+        "anchor": "Vídeo",
+        "url": "https://www.youtube.com/watch?v=aSfU_KSi3D4"
+      }
+    ]
+  },
+  {
+    "id": "ase",
+    "screenshot": "ASE.png",
+    "title": "Web oficial de la ASE",
+    "position": "Diseño e implementación",
+    "description": "Portal bilingüe de la Asociación Sevillana de Esperanto. Tema de WordPress a medida.",
+    "skills": [
+      "PHP",
+      "WordPress",
+      "JavaScript",
+      "Sass"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://esperantosevilla.org/"
+      }
+    ]
+  },
+  {
+    "id": "fch",
+    "screenshot": "fch.png",
+    "title": "No Solo Chistes",
+    "position": "Proyecto propio",
+    "description": "Web de humor con servidor Node.js + MongoDB (anteriormente PHP, MySQL y Backbone.js).",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Sass",
+      "Nunjucks",
+      "PHP",
+      "MySQL",
+      "Backbone.js"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://nosolochistes.com/"
+      },
+      {
+        "anchor": "Versión 2009",
+        "url": "https://web.archive.org/web/20091207071245/http://feti-chistes.es/"
+      }
+    ]
+  },
+  {
+    "id": "sng",
+    "screenshot": "SNG.png",
+    "title": "Spanish Numbers Guide",
+    "position": "Proyecto propio",
+    "description": "Web bilingüe educativa para estudiantes de español. Alojado en Amazon S3 y CloudFront.",
+    "skills": [
+      "JavaScript",
+      "Winstersmith",
+      "AWS"
+    ],
+    "links": [
+      {
+        "anchor": "Web",
+        "url": "https://spanishnumbers.guide"
+      }
+    ]
+  },
+  {
+    "id": "vivaverbo",
+    "screenshot": "vivaverbo.png",
+    "title": "Vivaverbo",
+    "description": "Herramienta multiusuario para el aprendizaje de idiomas basada repetición espaciada.",
+    "position": "Proyecto propio",
+    "skills": [
+      "JavaScript",
+      "AngularJS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/vivaverbo"
+      },
+      {
+        "anchor": "Vídeo",
+        "url": "https://www.youtube.com/watch?v=1BSoZN3Uly8"
+      }
+    ]
+  },
+  {
+    "id": "numeros",
+    "screenshot": "numeros.jpg",
+    "title": "Números",
+    "position": "Proyecto propio",
+    "description": "Aplicación Android/iOS educativa para estudiantes de español.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "React Native"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/numeros"
+      }
+    ]
+  },
+  {
+    "id": "andex",
+    "screenshot": "andex.png",
+    "title": "Voluntariado de ANDEX",
+    "position": "Diseño e implementación",
+    "description": "Aplicación web para gestionar los grupos de voluntarios de la asociación de ANDEX.",
+    "skills": [
+      "JavaScript",
+      "CoffeScript",
+      "AngularJS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Sass"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/voluntariado"
+      },
+     {
+       "anchor": "Vídeo",
+       "url": "https://www.youtube.com/watch?v=oJzJS9lr6U4"
+     }
+    ]
+  },
+  {
+    "id": "timed",
+    "screenshot": "timed.png",
+    "title": "Timed TODO App",
+    "position": "Proyecto propio",
+    "description": "Aplicación multiplataforma de productividad (listas de tareas cronometradas).",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Electron",
+      "Sass"
+    ],
+    "links": [
+      {
+        "anchor": "Github",
+        "url": "https://github.com/eiriarte/timed-todo"
+      }
+    ]
+  }
+]

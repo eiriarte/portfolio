@@ -1,0 +1,20 @@
+{
+  "es": {
+    "title": "Contacto",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando…",
+    "successMessage": "Mensaje enviado. Me pondré en contacto con usted a la mayor brevedad.",
+    "errorMessage": "Ha ocurrido un error al enviar el mensaje. Intente más tarde."
+  },
+  "en": {
+    "title": "Contact",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending…",
+    "successMessage": "Message sent successfully. I'll get in touch as soon as possible.",
+    "errorMessage": "There was an error sending your message. Please try again later."
+  }
+}

@@ -1,3 +1,5 @@
+This is my portfolio, live at https://eiriarte.io. If you like it, feel free to fork it and reuse it in any way (remember to change the environment variables in `.env`!)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
