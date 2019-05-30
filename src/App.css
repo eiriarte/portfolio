@@ -16,11 +16,14 @@ h1, h2 {
 }
 
 .work-card {
-  max-width: 19rem;
+  width: 19rem;
+  max-width: 100%;
 }
 
 .work-card > .card-image-top {
   border-bottom: 1px solid #00000033;
+  max-width: 100%;
+  height: auto;
 }
 
 .work-card .badge:not(:last-child) {
