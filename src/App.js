@@ -1,4 +1,5 @@
 import React from 'react';
+import LangContext from './context';
 import Header from './Header';
 import Intro from './Intro';
 import Work from './Work';
@@ -30,11 +31,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Header
-          lang={this.state.lang}
-          onLangClick={this.handleLangClick}
-        />
+      <LangContext.Provider value={this.state.lang}>
+        <Header onLangClick={this.handleLangClick} />
         <Intro lang={this.state.lang} />
         <Work
           lang={this.state.lang}
@@ -43,7 +41,7 @@ class App extends React.Component {
         <About lang={this.state.lang} />
         <Contact lang={this.state.lang} />
         <Footer lang={this.state.lang} />
-      </React.Fragment>
+      </LangContext.Provider>
     );
   }
 }

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import LangContext from './context';
 import strings from './data/Header.str.json';
 
-function Header(props) {
-  const str = strings[props.lang];
+export default function Header(props) {
+  const str = strings[useContext(LangContext)];
   return (
     <header className="navbar navbar-expand navbar-light bg-white shadow sticky-top">
       <div className="container flex-column flex-sm-row">
@@ -25,5 +26,3 @@ function Header(props) {
     </header>
   );
 }
-
-export default Header;

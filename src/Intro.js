@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import LangContext from './context';
 import me from "./images/yo.jpg";
 import strings from './data/Intro.str.json';
 
-function Intro(props) {
-  const str = strings[props.lang];
+export default function Intro() {
+  const str = strings[useContext(LangContext)];
   return (
     <section className="px-3 py-5 my-4">
       <div className="container">
@@ -23,5 +24,3 @@ function Intro(props) {
     </section>
   );
 }
-
-export default Intro;

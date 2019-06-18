@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import LangContext from './context';
 import strings from './data/About.str.json';
 import { FaGithub, FaStackOverflow, FaRegFilePdf } from 'react-icons/fa';
 
-function About(props) {
-  const str = strings[props.lang];
-  const esClass = props.lang === 'es' ? 'lead' : 'd-none';
-  const enClass = props.lang === 'en' ? 'lead' : 'd-none';
+export default function About() {
+  const lang = useContext(LangContext);
+  const str = strings[lang];
+  const esClass = lang === 'es' ? 'lead' : 'd-none';
+  const enClass = lang === 'en' ? 'lead' : 'd-none';
   return (
     <section id="about" className="border-bottom p-3">
       <div className="container">
@@ -40,5 +42,3 @@ function About(props) {
     </section>
   );
 }
-
-export default About;

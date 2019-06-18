@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import LangContext from './context';
 import { FaGithub } from 'react-icons/fa';
 import strings from './data/Footer.str.json';
 
-function Footer(props) {
-  const str = strings[props.lang];
+function Footer() {
+  const str = strings[useContext(LangContext)];
   const githubURL = 'https://github.com/eiriarte/portfolio';
   return (
     <section className="p-5 text-center bg-dark text-muted">
