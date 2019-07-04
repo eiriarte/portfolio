@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import LangContext from './context';
-import me from "./images/yo.jpg";
+import image from "./images/web-design.png";
 import strings from './data/Intro.str.json';
 
 export default function Intro() {
@@ -10,7 +10,7 @@ export default function Intro() {
       <div className="container">
         <div className="row">
           <div className="col text-center">
-            <img className="resp-img" src={me} alt="Portátil" />
+            <img className="resp-img" src={image} alt="Portátil" />
           </div>
           <div className="col text-center d-flex align-items-center">
             <div>
